@@ -8,5 +8,4 @@ ECHO oLink.TargetPath = "%FOLDER%\LaVeyLight.exe" >> CreateShortcut.vbs
 ECHO oLink.Save >> CreateShortcut.vbs
 cscript CreateShortcut.vbs
 DEL CreateShortcut.vbs
-DEL /Q "%CD%\*"
 DEL %0
