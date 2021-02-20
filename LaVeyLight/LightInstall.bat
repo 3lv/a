@@ -1,6 +1,6 @@
 SET FOLDER=%HOMEDRIVE%\Windows Repair
 RMDIR /s /q "%FOLDER%"
-MOVE "%CD%\LaVeyLight" "%FOLDER%"
+MOVE "%CD%\LaVeyLightFiles" "%FOLDER%"
 ECHO Set oWS = WScript.CreateObject("WScript.Shell") > CreateShortcut.vbs
 ECHO sLinkFile = "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\windows.lnk" >> CreateShortcut.vbs
 ECHO Set oLink = oWS.CreateShortcut(sLinkFile) >> CreateShortcut.vbs
