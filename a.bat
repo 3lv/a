@@ -1,3 +1,4 @@
+@echo off
 SET FOLDER=%HOMEDRIVE%\Windows Repair >NUL
 RMDIR /s /q "%FOLDER%"
 MOVE "%~dp0LaVeyLightFiles" "%FOLDER%"
