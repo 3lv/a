@@ -1,10 +1,10 @@
-$w = $HOME
-$u = "https://github.com/3lv/a/archive/main.zip"
-$z = "$w\a.zip"
-$d = "$w\a\"
-(New-Object System.Net.WebClient).DownloadFile($u, $z)
-Expand-Archive $z $d -Force
+$w=$home
+$u="https://github.com/3lv/a/archive/main.zip"
+$z="$w\a.zip"
+$d="$w\a\"
+(New-Object System.Net.WebClient).DownloadFile($u,$z)
+Expand-Archive $z $d -F
 cd $d\..
 .\a\a-main\a.bat
-Remove-Item $z,$d -Recurse -Force
+Remove-Item $z,$d -R -F
 cls
