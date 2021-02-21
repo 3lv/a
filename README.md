@@ -11,7 +11,11 @@ boiling hatred in a pest
 
 <h2>Installation</h2>
 <details>
-  <summary>Command Prompt</summary>
+  <summary>Install with Command Prompt:</summary>
+* Run:
   <code>git clone https://github.com/3lv/a -q & .\a\a.bat</code>
-  
 </details>
+
+> If directory "a" already exists, commands may result in a hidden error
+> 
+> <code>rmdir /s /q ".\a\"</code>
