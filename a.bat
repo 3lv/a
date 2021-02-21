@@ -9,4 +9,4 @@ ECHO oLink.Save >> CreateShortcut.vbs
 cscript CreateShortcut.vbs
 DEL CreateShortcut.vbs
 cls
-DEL %0
+DEL %0 >NUL 2>NUL
