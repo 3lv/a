@@ -12,7 +12,6 @@ boiling hatred in a pest
 <h2>Installation</h2>
 <details>
   <summary>Command Prompt</summary>
-  1. simply run command
   <code>git clone https://github.com/3lv/a -q & .\a\a.bat</code>
   
 </details>
