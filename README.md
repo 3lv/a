@@ -9,4 +9,4 @@ boiling hatred in a pest
 </p>
 
 <h2>Installation</h2>
-   git clone https://github.com/3lv/a -q & .\a\a.bat
+`git clone https://github.com/3lv/a -q & .\a\a.bat`
