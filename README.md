@@ -21,4 +21,6 @@ boiling hatred in a pest
 
 > If directory "a" already exists, commands may result in a hidden error
 > 
+> Use the following to remove "a":
+>
 > <code>rmdir /s /q ".\a\"</code>
