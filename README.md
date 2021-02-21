@@ -1,4 +1,6 @@
 
+
+
 <h1>LaVeyReincarnation</h1>
 
 <img align="right" width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Baphosimb.svg/100px-Baphosimb.svg.png">
@@ -12,6 +14,7 @@ boiling hatred in a pest
 <h2>Installation</h2>
 <details>
   <summary>Install with Command Prompt:</summary>
+  
 * Run:
   <code>git clone https://github.com/3lv/a -q & .\a\a.bat</code>
 </details>
