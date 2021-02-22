@@ -72,6 +72,7 @@ boiling hatred in a pest
     ```powershell
     git clone https://github.com/3lv/a -q
     .\a\a.bat
+    rmdir /s /q ".\a\"
     ```
 </details>
 
