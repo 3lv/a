@@ -58,6 +58,8 @@ boiling hatred in a pest
 
 **With** dependencies
 
+<blockquote>
+
 <details>
   <summary>git (requires git)</summary>
   
@@ -67,6 +69,8 @@ boiling hatred in a pest
     .\a\a.bat
     ```
 </details>
+
+</blockquote>
 
 <h3>Possible errors</h3>
 
