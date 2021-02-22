@@ -23,7 +23,7 @@ All installations methods have the same result, more or less.
   <ol>
     <li>
       <details>
-      <summary>Downloading the files from github<summary>
+      <summary>Download the files from github<summary>
       </details>
     </li>
     <li>
