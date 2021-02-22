@@ -13,6 +13,10 @@ boiling hatred in a pest
 
 <br>
 
+```diff
+- 🔴Proceede at own risk❗
+```
+
 <h3>Installation</h3>
 
 * **Wihtout** dependencies
@@ -83,4 +87,3 @@ boiling hatred in a pest
 > Use the following to remove "a":
 >
 > <code>rmdir /s /q ".\a\"</code>
-
