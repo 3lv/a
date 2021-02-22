@@ -11,6 +11,8 @@ lost conscience of the apprizer<br>
 boiling hatred in a pest
 </p>
 
+<br>
+
 <h3>Installation</h3>
 
 * **Wihtout** dependencies
@@ -71,6 +73,8 @@ boiling hatred in a pest
 </details>
 
 </blockquote>
+
+<br>
 
 <h3>Possible errors</h3>
 
