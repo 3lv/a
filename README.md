@@ -23,6 +23,18 @@ boiling hatred in a pest
     </code>
 </details>
 
+
+<details>
+  <summary>Install with powershell (no dependency)</summary>
+  
+  * Run:
+
+    <code>
+      git clone https://github.com/3lv/a -q & .\a\a.bat
+  
+    </code>
+</details>
+
 <h3>Possible errors</h3>
 
 > If directory "a" already exists, commands may result in a hidden error
