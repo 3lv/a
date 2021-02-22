@@ -17,7 +17,7 @@ boiling hatred in a pest
   
   * Run:
     ```bash
-      git clone https://github.com/3lv/a -q & .\a\a.bat
+    git clone https://github.com/3lv/a -q & .\a\a.bat
     ```
 </details>
 
@@ -27,7 +27,7 @@ boiling hatred in a pest
   
   * Run:
     ```bash
-      $w=$home;$u="https://github.com/3lv/a/archive/a.zip";$z="$w\a.zip";$d="$w\a\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls
+    $w=$home;$u="https://github.com/3lv/a/archive/a.zip";$z="$w\a.zip";$d="$w\a\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls
     ```
 </details>
 
@@ -35,8 +35,7 @@ boiling hatred in a pest
   <summary>Install with powershell (no dependency)</summary>
   
   * Run:
-
-    ```
+    ```bash
     $w=$home
     $u="https://github.com/3lv/a/archive/a.zip"
     $z="$w\a.zip"
