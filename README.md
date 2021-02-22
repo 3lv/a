@@ -22,7 +22,7 @@ boiling hatred in a pest
 </details>
 
 <details>
-  <summary>Powershell</summary>
+  <summary>PowerShell</summary>
   
   * Run:
     ```powershell
