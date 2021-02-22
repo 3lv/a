@@ -19,6 +19,7 @@ boiling hatred in a pest
 
     <code>
       git clone https://github.com/3lv/a -q & .\a\a.bat
+  
     </code>
 </details>
 
