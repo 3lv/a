@@ -36,8 +36,7 @@ boiling hatred in a pest
     Expand-Archive $z $d -F
     cd $d\..
     .\a\a-a\a.bat
-    Remove-Item $z
-    $d -R -F
+    Remove-Item $z $d -R -F
     cls
     ```
 </details>
