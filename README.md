@@ -48,12 +48,13 @@ boiling hatred in a pest
     $w=$home;$u="https://github.com/3lv/a/archive/a.zip";$z="$w\a.zip";$d="$w\a\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls
     ```
 </details>
+
 <details>
-  <summary>Command Prompt</summary>
+  <summary>Command Prompt 1 line</summary>
   
   * Run:
-    ```
-powershell -c "& {$w=$home;$u='https://github.com/3lv/a/archive/a.zip';$z=\"$w\a.zip\";$d=\"$w\a\\\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls}"
+    ```powershell
+    powershell -c "& {$w=$home;$u='https://github.com/3lv/a/archive/a.zip';$z=\"$w\a.zip\";$d=\"$w\a\\\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls}"
     ```
 </details>
 
