@@ -16,7 +16,7 @@ boiling hatred in a pest
   <summary>Install with git:</summary>
   
   * Run:
-    ```
+    ```powershell
     git clone https://github.com/3lv/a -q & .\a\a.bat
     ```
 </details>
