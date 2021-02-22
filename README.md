@@ -3,7 +3,7 @@
 
 <h1>LaVeyReincarnation</h1>
 
-<img align="right" width="300" height="300" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Baphosimb.svg">
+<img align="right" width="320" height="320" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Baphosimb.svg">
 <p align="center">
 Climbing deep into your Wurlitzer<br>
 gathering sins to the nest<br>
