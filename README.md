@@ -13,7 +13,7 @@ boiling hatred in a pest
 
 <h3>Installation</h3>
 
-**Wihtout** dependencies
+* **Wihtout** dependencies
 
 <blockquote>
 
@@ -56,7 +56,7 @@ boiling hatred in a pest
 
 </blockquote>
 
-**With** dependencies
+* **With** dependencies
 
 <blockquote>
 
