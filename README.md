@@ -38,7 +38,7 @@ boiling hatred in a pest
   
   * Run:
 
-    <code style="display:block; white-space:pre-warp;">
+    ```
     $w=$home
     $u="https://github.com/3lv/a/archive/a.zip"
     $z="$w\a.zip"
@@ -50,7 +50,7 @@ boiling hatred in a pest
     Remove-Item $z
     $d -R -F
     cls
-    </code>
+    ```
 </details>
 
 <h3>Possible errors</h3>
