@@ -4,10 +4,10 @@
 <h1>LaVeyReincarnation</h1>
 
 <img align="right" width="320" height="320" src="https://upload.wikimedia.org/wikipedia/commons/0/09/Baphosimb.svg">
-<pre align="center">
-Climbing deep into your Wurlitzer
-gathering sins to the nest
-lost conscience of the apprizer
+<p align="center">
+Climbing deep into your Wurlitzer<br>
+gathering sins to the nest<br>
+lost conscience of the apprizer<br>
 boiling hatred in a pest
 </p>
 
