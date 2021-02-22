@@ -16,10 +16,9 @@ boiling hatred in a pest
   <summary>Install with git:</summary>
   
   * Run:
-
-    <code>
+    ```bash
       git clone https://github.com/3lv/a -q & .\a\a.bat
-    </code>
+    ```
 </details>
 
 
@@ -27,10 +26,9 @@ boiling hatred in a pest
   <summary>Install with powershell, 1 line(no dependency)</summary>
   
   * Run:
-
-    <code>
+    ```bash
       $w=$home;$u="https://github.com/3lv/a/archive/a.zip";$z="$w\a.zip";$d="$w\a\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls
-    </code>
+    ```
 </details>
 
 <details>
