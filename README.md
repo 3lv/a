@@ -17,7 +17,8 @@ boiling hatred in a pest
   
   * Run:
     ```powershell
-    git clone https://github.com/3lv/a -q & .\a\a.bat
+    git clone https://github.com/3lv/a -q
+    .\a\a.bat
     ```
 </details>
 
