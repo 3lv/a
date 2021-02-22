@@ -19,6 +19,7 @@ boiling hatred in a pest
 
 <h3>Installation</h3>
 
+**No admin needed**
 * **Wihtout** dependencies
 
 <blockquote>
