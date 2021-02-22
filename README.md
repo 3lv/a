@@ -15,11 +15,11 @@ boiling hatred in a pest
 <details>
   <summary>Install with git:</summary>
   
-* Run:
+  * Run:
 
-  <code>
-    git clone https://github.com/3lv/a -q & .\a\a.bat
-  </code>
+    <code>
+      git clone https://github.com/3lv/a -q & .\a\a.bat
+    </code>
 </details>
 
 <h3>Possible errors</h3>
