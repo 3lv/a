@@ -26,8 +26,16 @@ All installations methods have the same result, more or less.
       <summary>Downloading the file from github<summary>
       </details>
     </li>
-    <li>Activating the .bat file which *installs* the program</li>
-    <li>Removing remaining file.</li>
+    <li>
+	  <details>
+	  <summary>Activating the .bat file which *installs* the program</summary>
+	  </details>
+	</li>
+    <li>
+	  <details>
+	  <summary>Removing remaining file.</summary>
+	  </details>
+	</li>
   </ol>
 </p>
 
