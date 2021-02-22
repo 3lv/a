@@ -13,7 +13,7 @@ boiling hatred in a pest
 
 <h3>Installation</h3>
 <details>
-  <summary>Install with git:</summary>
+  <summary>git</summary>
   
   * Run:
     ```powershell
@@ -21,18 +21,8 @@ boiling hatred in a pest
     ```
 </details>
 
-
 <details>
-  <summary>Install with powershell, 1 line(no dependency)</summary>
-  
-  * Run:
-    ```powershell
-    $w=$home;$u="https://github.com/3lv/a/archive/a.zip";$z="$w\a.zip";$d="$w\a\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls
-    ```
-</details>
-
-<details>
-  <summary>Install with powershell (no dependency)</summary>
+  <summary>Powershell</summary>
   
   * Run:
     ```powershell
@@ -49,6 +39,16 @@ boiling hatred in a pest
     cls
     ```
 </details>
+
+<details>
+  <summary>PowerShell 1 line</summary>
+  
+  * Run:
+    ```powershell
+    $w=$home;$u="https://github.com/3lv/a/archive/a.zip";$z="$w\a.zip";$d="$w\a\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -F;cls
+    ```
+</details>
+
 
 <h3>Possible errors</h3>
 
