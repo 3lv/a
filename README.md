@@ -13,7 +13,7 @@ boiling hatred in a pest
 
 <h3>Installation</h3>
 <details>
-  <summary>git</summary>
+  <summary>git (requires git)</summary>
   
   * Run:
     ```powershell
