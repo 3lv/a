@@ -18,6 +18,18 @@ boiling hatred in a pest
 ```
 
 <h3>Installation</h3>
+<p>
+All installations methods have the same result, more or less.
+  <ol>
+    <li>
+      <details>
+      <summary>Downloading the file from github<summary>
+      </details>
+    </li>
+    <li>Activating the .bat file which *installs* the program</li>
+    <li>Removing remaining file.</li>
+  </ol>
+</p>
 
 **No admin needed**
 * **Wihtout** dependencies
