@@ -17,30 +17,9 @@ boiling hatred in a pest
 - 🔴Proceede at own risk❗
 ```
 
-<h3>Installation</h3>
-<p>
-All installations methods have the same result, more or less.
-  <ol>
-    <li>
-      <details>
-      <summary>Download the files from github<summary>
-      </details>
-    </li>
-    <li>
-	  <details>
-	  <summary>Activating the .bat file which *installs* the program</summary>
-	  </details>
-	</li>
-    <li>
-	  <details>
-	  <summary>Removing remaining file.</summary>
-	  </details>
-	</li>
-  </ol>
-</p>
-
 <blockquote>
-	
+
+<h3>Installation</h3>
 	
 <details>
   <summary>PowerShell from r</summary>
@@ -113,7 +92,29 @@ All installations methods have the same result, more or less.
 
 </blockquote>
 
-<br>
+<br><br>
+
+
+<p>
+All installations methods have the same result, more or less.
+  <ol>
+    <li>
+      <details>
+      <summary>Download the files from github<summary>
+      </details>
+    </li>
+    <li>
+	  <details>
+	  <summary>Run the .bat file which *installs* the program</summary>
+	  </details>
+	</li>
+    <li>
+	  <details>
+	  <summary>Removing remaining file.</summary>
+	  </details>
+	</li>
+  </ol>
+</p>
 
 <h3>Possible errors</h3>
 
