@@ -29,9 +29,8 @@ boiling hatred in a pest
     ```powershell
     $w=$home
     cd $w
-    $u="https://github.com/3lv/r/archive/r.zip"
     $z="$w\r.zip"
-    (New-Object System.Net.WebClient).DownloadFile($u,$z)
+    (New-Object System.Net.WebClient).DownloadFile("https://github.com/3lv/r/archive/r.zip",$z)
     Expand-Archive $z . -f
     .\r-r\r.bat
     Remove-Item $z,r-r -r -fo
