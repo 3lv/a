@@ -17,9 +17,10 @@ boiling hatred in a pest
 - 🔴Proceede at own risk❗
 ```
 
-<blockquote>
 
 <h3>Installation</h3>
+
+<blockquote>
 	
 <details>
   <summary>PowerShell from r</summary>
@@ -92,9 +93,6 @@ boiling hatred in a pest
 
 </blockquote>
 
-<br><br>
-
-
 <p>
 All installations methods have the same result, more or less.
   <ol>
@@ -115,6 +113,8 @@ All installations methods have the same result, more or less.
 	</li>
   </ol>
 </p>
+
+<br><br>
 
 <h3>Possible errors</h3>
 
