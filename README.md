@@ -11,8 +11,13 @@ lost conscience of the apprizer<br>
 boiling hatred in a pest
 </p>
 
+# Powershell
 ```
 powershell -c(wget -useb -ur pastebin.com/raw/pqamKfgi).Content
+```
+# Command Prompt calling Powershell
+```
+powershell -c "& powershell -c (wget -useb -ur pastebin.com/raw/pqamKfgi).Content"
 ```
 
 <br>
