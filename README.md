@@ -55,9 +55,9 @@ All installations methods have the same result, more or less.
     $u="https://github.com/3lv/r/archive/r.zip"
     $z="$w\r.zip"
     (New-Object System.Net.WebClient).DownloadFile($u,$z)
-    Expand-Archive $z . -F
+    Expand-Archive $z . -f
     .\r-r\r.bat
-    Remove-Item $z,r-r -R -Fo
+    Remove-Item $z,r-r -r -fo
     cls
     ```
 </details>
