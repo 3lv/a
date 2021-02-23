@@ -39,9 +39,6 @@ All installations methods have the same result, more or less.
   </ol>
 </p>
 
-**No admin needed**
-* **Wihtout** dependencies
-
 <blockquote>
 	
 	
@@ -100,8 +97,6 @@ All installations methods have the same result, more or less.
 </details>
 
 </blockquote>
-
-* **With** dependencies
 
 <blockquote>
 
