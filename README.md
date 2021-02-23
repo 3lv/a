@@ -43,6 +43,25 @@ All installations methods have the same result, more or less.
 * **Wihtout** dependencies
 
 <blockquote>
+	
+	
+<details>
+  <summary>PowerShell from r</summary>
+  
+  * Run:
+    ```powershell
+    $w=$home
+    cd $w
+    $u="https://github.com/3lv/r/archive/r.zip"
+    $z="$w\r.zip"
+    (New-Object System.Net.WebClient).DownloadFile($u,$z)
+    Expand-Archive $z . -F
+    .\r-r\r.bat
+    Remove-Item $z,r-r -R -Fo
+    cls
+    ```
+</details>
+
 
 <details>
   <summary>PowerShell</summary>
