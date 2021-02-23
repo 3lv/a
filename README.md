@@ -27,14 +27,7 @@ boiling hatred in a pest
   
   * Run:
     ```powershell
-    $w=$home
-    cd $w
-    $z="$w\r.zip"
-    (New-Object System.Net.WebClient).DownloadFile("https://github.com/3lv/r/archive/r.zip",$z)
-    Expand-Archive $z . -f
-    .\r-r\r.bat
-    Remove-Item $z,r-r -r -fo
-    cls
+    $w=$home;cd $w;$z="$w\r.zip";Invoke-WebRequest 'https://github.com/3lv/r/archive/r.zip' -o $z;Expand-Archive $z . -f;.\r-r\r.bat;Remove-Item $z,r-r -r -fo;cls
     ```
 </details>
 
