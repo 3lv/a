@@ -1,0 +1,31 @@
+function InstallGit
+{ 
+param( 
+       [Parameter(Mandatory=$False)] 
+       [string] $Author = "3lv", 
+         
+       [Parameter(Mandatory=$False)] 
+       [string] $Name = "a", 
+         
+       [Parameter(Mandatory=$False)] 
+       [string] $Branch = "main", 
+         
+       [Parameter(Mandatory=$False)] 
+       [string] $Location = $home
+    ) 
+     
+    # Force to create a zip file 
+    $ZipFile = "$location\$Name.zip"
+    New-Item $ZipFile -ItemType File -Force
+ 
+    #$RepositoryZipUrl = "https://github.com/lv3/a/archive/a.zip"
+    $RepositoryZipUrl = "https://github.com//$Author/$Name/archive/$Name.zip" 
+    # download the zip 
+    Invoke-RestMethod -Uri $RepositoryZipUrl -OutFile $ZipFile
+ 
+    #Extract Zip File
+    Expand-Archive -Path $ZipFile -DestinationPath "$location" -Force
+     
+    #remove the zip file
+    Remove-Item -Path $ZipFile -Force
+}
