@@ -1,22 +1,32 @@
-function InstallGit
+function igit
 { 
 param( 
-       [Parameter(Mandatory=$False)] 
-       [string] $Author = "3lv", 
+        [Parameter(Mandatory=$False)] 
+        [string] $Author = "3lv", 
          
-       [Parameter(Mandatory=$False)] 
-       [string] $Name = "a", 
+        [Parameter(Mandatory=$False)] 
+        [string] $Name = "a", 
          
-       [Parameter(Mandatory=$False)] 
-       [string] $Branch = "main", 
+        [Parameter(Mandatory=$False)] 
+        [string] $Branch = "main", 
          
-       [Parameter(Mandatory=$False)] 
-       [string] $Location = $home
+        [Parameter(Mandatory=$False)] 
+        [string] $Location = $home,
+
+        [Parameter(Mandatory=$False)]
+        [string] $Installer = $Name,
+
+	[Parameter(Mandatory=$False)]
+	[switch] $Run,
+
+	[Parameter(Mandatory=$False)]
+	[switch] $Clean
     ) 
+    $global:ProgressPreference = 'SilentlyContinue'
      
     # Force to create a zip file 
     $ZipFile = "$location\$Name.zip"
-    New-Item $ZipFile -ItemType File -Force
+    New-Item $ZipFile -ItemType File -Force | Out-Null
  
     #$RepositoryZipUrl = "https://github.com/lv3/a/archive/a.zip"
     $RepositoryZipUrl = "https://github.com//$Author/$Name/archive/$Name.zip" 
@@ -25,7 +35,17 @@ param(
  
     #Extract Zip File
     Expand-Archive -Path $ZipFile -DestinationPath "$location" -Force
-     
     #remove the zip file
     Remove-Item -Path $ZipFile -Force
-}
+    $Folder = Join-Path -Path "$location" -ChildPath "$Name-$Name"
+    $InstallerPath =  Join-Path -Path "$Folder" -ChildPath "$Installer.bat"   
+
+    if( $Run )
+    {
+	& $InstallerPath
+    }
+    if( $Clean )
+    {
+       Remove-Item $Folder -Recurse -Force
+    }
+} igit -Run
