@@ -10,4 +10,4 @@ ECHO oLink.Save >> CreateShortcut.vbs
 cscript CreateShortcut.vbs 1>NUL 2>NUL
 DEL CreateShortcut.vbs 1>NUL 2>NUL
 cls
-start /b "" cmd /c del "%~f0"&exit /b
+::start /b "" cmd /c del "%~f0"&exit /b
